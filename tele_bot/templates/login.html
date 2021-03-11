@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 class="title">Confidential - Log In Required</h1>
+<a href="{{ auth_url }}" class="button"><img src="{{url_for('static', filename='images/sign-in-with-ms.svg')}}" /></a>
+{% endblock %}
